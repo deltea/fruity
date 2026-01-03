@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Borel&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 @import "tailwindcss";
 
 @font-face {
@@ -10,10 +11,10 @@
 @theme {
   --color-bg: #0E171B;
   --color-stuff: #131e23;
-  --color-accent: #ff813c;
-  --font-sans: "Pixellari", sans-serif;
+  --color-accent: #ed7636;
+  --font-sans: "Nunito", sans-serif;
 }
 
 body {
-  @apply bg-bg text-3xl text-white;
+  @apply bg-bg text-lg underline-offset-2 font-bold text-white;
 }
