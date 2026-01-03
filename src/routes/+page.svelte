@@ -9,7 +9,7 @@
         by Hack Club
       </div>
 
-      <a href="https://fruity.fillout.com/rsvp" class="h-10 flex items-center font-extrabold bg-accent px-4 rounded-lg duration-100 hover:-translate-y-1">
+      <a href="https://fruity.fillout.com/rsvp" target="_blank" class="h-10 flex items-center font-extrabold bg-accent px-4 rounded-lg duration-100 hover:-translate-y-1">
         Sign Up!
       </a>
     </div>
@@ -49,7 +49,7 @@
 
       <h3 class="font-extrabold text-2xl mb-4">We Ship</h3>
       Get
-      <a class="underline decoration-2 text-accent" href="https://www.image-line.com/">FL Studio</a>
+      <a class="underline decoration-2 text-accent" href="https://www.image-line.com/" target="_blank">FL Studio</a>
       (Fruity Edition) to start your music creation journey!
 
       <br><br>
