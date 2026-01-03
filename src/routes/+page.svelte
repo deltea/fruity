@@ -2,7 +2,7 @@
   <div class="w-2xl">
     <div class="flex justify-between mb-16">
       <div class="flex items-end gap-2">
-        <span class="text-accent inline-flex gap-1.5 items-baseline text-3xl font-black">
+        <span class="text-accent inline-flex items-baseline text-3xl font-black">
           <img src="/logo-outline.png" alt="Fruity Logo" class="h-8">
           Fruity!
         </span>
