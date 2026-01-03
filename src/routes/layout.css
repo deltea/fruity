@@ -8,10 +8,12 @@
 }
 
 @theme {
-  --color-accent: #FF762A;
+  --color-bg: #0E171B;
+  --color-stuff: #131e23;
+  --color-accent: #ff813c;
   --font-sans: "Pixellari", sans-serif;
 }
 
 body {
-  @apply bg-accent/75 text-2xl text-white;
+  @apply bg-bg text-3xl text-white;
 }

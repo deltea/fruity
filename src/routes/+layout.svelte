@@ -8,4 +8,6 @@
 	<title>Fruity!</title>
 </svelte:head>
 
-{@render children()}
+<main class="bg-[url('/background.svg')] bg-repeat h-screen">
+	{@render children()}
+</main>

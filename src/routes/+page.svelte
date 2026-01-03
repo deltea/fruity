@@ -1,3 +1,4 @@
 <div class="p-8">
-  Welcome to Fruity!
+  Welcome to
+  <span class="text-accent">Fruity!</span>
 </div>
