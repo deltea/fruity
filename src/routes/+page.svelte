@@ -3,7 +3,7 @@
   import AccordionItem from "$components/AccordionItem.svelte";
 </script>
 
-<div class="flex justify-center h-full p-8">
+<div class="flex justify-center h-full py-8 sm:px-8 px-6">
   <main class="w-2xl">
     <header class="flex justify-between mb-16">
       <div class="flex sm:items-end items-center sm:gap-2 sm:flex-row flex-col">
