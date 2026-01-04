@@ -24,5 +24,7 @@
     </div>
   </div>
 
-  <p class="animate-pulse absolute text-muted bottom-2 right-4">click to continue...</p>
+  {#if currentLine < lines.length - 1}
+    <p class="animate-pulse absolute text-muted bottom-2 right-4">click to continue...</p>
+  {/if}
 </button>
