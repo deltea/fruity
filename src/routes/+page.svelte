@@ -11,7 +11,7 @@
           <img src="/logo-outline.png" alt="Fruity Logo" class="h-8">
           Fruity!
         </span>
-        <span class="">by Hack Club</span>
+        <span>by Hack Club</span>
       </div>
 
       <a href="https://fruity.fillout.com/rsvp" target="_blank" class="h-10 flex items-center font-extrabold bg-accent px-4 rounded-lg duration-100 hover:-translate-y-1 no-underline text-white">
@@ -80,6 +80,6 @@
   </main>
 
   <a href="https://hackclub.com/" target="_blank">
-    <img src="/flag-orpheus-top.svg" alt="Hack Club Logo" class="sm:absolute sm:block hidden left-12 top-0 h-16 hover:rotate-12 duration-100" />
+    <img src="/flag-orpheus-top.svg" alt="Hack Club Logo" class="absolute lg:block lg:left-12 lg:top-0 left-1/2 top-0 lg:translate-x-0 -translate-x-1/2 h-16 hover:rotate-12 duration-100" />
   </a>
 </div>
