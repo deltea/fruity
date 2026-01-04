@@ -16,6 +16,7 @@
 }
 
 @theme {
+  --color-muted: #8899A6;
   --color-bg: #0E171B;
   --color-bg-1: #121E24;
   --color-bg-2: #1C2A30;

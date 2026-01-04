@@ -1,11 +1,12 @@
 <script lang="ts">
   import { Accordion } from "bits-ui";
   import AccordionItem from "$components/AccordionItem.svelte";
+    import Helper from "$components/Helper.svelte";
 </script>
 
 <div class="flex justify-center h-full py-8 sm:px-8 px-6">
-  <main class="w-2xl">
-    <header class="flex justify-between mb-16">
+  <main class="w-2xl space-y-16">
+    <header class="flex justify-between">
       <div class="flex sm:items-end items-center sm:gap-2 sm:flex-row flex-col">
         <span class="text-accent inline-flex items-baseline text-3xl font-black">
           <img src="/logo-outline.png" alt="Fruity Logo" class="h-8">
@@ -20,6 +21,13 @@
     </header>
 
     <article class="space-y-8">
+      <Helper lines={[
+        "yo whats up",
+        "welcome to fruity, a hack club ysws all about music!",
+        "i'm fl-chan! your guide to all things fruity :D",
+        "this website is still under construction, so check back later for more updates!"
+      ]} />
+
       <section>
         <p>
           Do <i>🫵 you</i> like music? (yes you do)
@@ -73,7 +81,7 @@
           target="_blank"
           class="h-10 inline-flex items-center font-extrabold bg-accent px-4 rounded-lg duration-100 hover:-translate-y-1 no-underline text-white"
         >
-          RSVP now!
+          Click here to RSVP!
         </a>
       </div>
     </article>
