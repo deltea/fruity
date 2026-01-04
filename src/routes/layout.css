@@ -13,6 +13,10 @@
   a {
     @apply underline decoration-2 text-accent;
   }
+
+  h2 {
+    @apply text-2xl font-extrabold;
+  }
 }
 
 @theme {
@@ -44,5 +48,5 @@
 }
 
 body {
-  @apply bg-bg text-lg underline-offset-2 font-bold text-white;
+  @apply bg-bg sm:text-lg text-base underline-offset-2 font-medium text-white selection:bg-accent selection:text-white;
 }

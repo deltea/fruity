@@ -20,7 +20,7 @@
   <img src="/fl-chan.gif" alt="FL-chan" class="h-24">
   <div class="grow flex items-stretch relative">
     <div class="w-0 h-0 border-t-12 border-b-12 border-r-12 border-t-transparent border-b-transparent border-r-bg-2 translate-y-6"></div>
-    <p class="bg-bg-2 rounded-2xl grow px-4 py-3 w-full">
+    <p class="bg-bg-2 rounded-2xl grow px-4 py-3 w-full font-bold">
       {lines[currentLine]}
     </p>
   </div>
