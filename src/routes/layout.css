@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Borel&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 @import "tailwindcss";
+@plugin "tailwindcss-animate";
 
 @font-face {
   font-family: "Pixellari";
@@ -10,6 +11,8 @@
 
 @theme {
   --color-bg: #0E171B;
+  --color-bg-1: #121E24;
+  --color-bg-2: #1C2A30;
   --color-stuff: #131e23;
   --color-accent: #ed7636;
   --font-sans: "Nunito", sans-serif;

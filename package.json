@@ -29,5 +29,12 @@
 		"typescript": "^5.9.3",
 		"typescript-eslint": "^8.48.1",
 		"vite": "^7.2.6"
+	},
+	"dependencies": {
+		"bits-ui": "^2.15.2",
+		"clsx": "^2.1.1",
+		"iconify-icon": "^3.0.2",
+		"tailwind-merge": "^3.4.0",
+		"tailwindcss-animate": "^1.0.7"
 	}
 }
