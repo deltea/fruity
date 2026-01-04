@@ -65,6 +65,6 @@
   </div>
 
   <a href="https://hackclub.com/" target="_blank">
-    <img src="/flag-orpheus-top.svg" alt="Hack Club Logo" class="sm:absolute hidden left-12 top-0 h-16 hover:rotate-12 duration-100" />
+    <img src="/flag-orpheus-top.svg" alt="Hack Club Logo" class="sm:absolute sm:block hidden left-12 top-0 h-16 hover:rotate-12 duration-100" />
   </a>
 </div>
