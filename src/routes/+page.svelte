@@ -1,7 +1,7 @@
 <script lang="ts">
   import { Accordion } from "bits-ui";
   import AccordionItem from "$components/AccordionItem.svelte";
-    import Helper from "$components/Helper.svelte";
+  import Helper from "$components/Helper.svelte";
 </script>
 
 <div class="flex justify-center h-full py-8 sm:px-8 px-6">
@@ -39,7 +39,7 @@
           presenting...
           <span class="font-bold text-2xl block">Fruity!</span>
         </div>
-        <p>A new hack club YSWS (you ship we ship) focused on digital projects related to music. Make a music related coding project, get FL Studio!</p>
+        <p>A new hack club YSWS (you ship we ship) program focused on digital projects related to music. Make a music related coding project, get FL Studio!</p>
       </section>
 
       <section>
