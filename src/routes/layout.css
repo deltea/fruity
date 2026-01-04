@@ -1,12 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Borel&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 @import "tailwindcss";
-@plugin "tailwindcss-animate";
+@import "tailwind-animate";
 
 @font-face {
   font-family: "Pixellari";
   src: url("/fonts/Pixellari.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
+}
+
+@layer base {
+  a {
+    @apply underline decoration-2 text-accent;
+  }
 }
 
 @theme {
@@ -16,6 +22,24 @@
   --color-stuff: #131e23;
   --color-accent: #ed7636;
   --font-sans: "Nunito", sans-serif;
+
+  @keyframes accordion-down {
+		from {
+			height: 0;
+		}
+		to {
+			height: var(--bits-accordion-content-height);
+		}
+	}
+
+	@keyframes accordion-up {
+		from {
+			height: var(--bits-accordion-content-height);
+		}
+		to {
+			height: 0;
+		}
+	}
 }
 
 body {
