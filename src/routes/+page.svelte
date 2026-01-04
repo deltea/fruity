@@ -8,10 +8,10 @@
   <main class="w-2xl space-y-16 mb-16">
     <header class="flex justify-between">
       <div class="flex sm:items-end items-center sm:gap-2 sm:flex-row flex-col">
-        <div class="text-accent inline-flex items-baseline text-3xl font-black">
-          <img src="/logo-outline.png" alt="Fruity Logo" class="h-8 translate-y-1">
+        <a href="/" class="text-accent no-underline inline-flex items-baseline text-3xl font-black group">
+          <img src="/logo-outline.png" alt="Fruity Logo" class="h-8 translate-y-1 group-hover:rotate-12 duration-100">
           <span>Fruity!</span>
-        </div>
+        </a>
         <span>by Hack Club</span>
       </div>
 
@@ -64,13 +64,16 @@
 
         <Accordion.Root type="multiple" class="w-full space-y-2">
           <AccordionItem title="Can I submit multiple projects?">
-            No. You can only submit one project.
+            No. You can only submit one project per person.
           </AccordionItem>
           <AccordionItem title="How do I track my time?">
             Use Hackatime, an editor extension that tracks the time you spend coding. You can install it <a href="https://hackatime.hackclub.com/"  target="_blank">here</a>!
           </AccordionItem>
           <AccordionItem title="Can I submit a hardware project?">
             Sorry, but no. Only digital projects are allowed.
+          </AccordionItem>
+          <AccordionItem title="Can I get a different DAW?">
+            Possibly in the future, but for now we are only offering FL Studio.
           </AccordionItem>
         </Accordion.Root>
       </section>
