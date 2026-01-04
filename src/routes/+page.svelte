@@ -99,7 +99,7 @@
         <a
           href="https://hackclub.enterprise.slack.com/archives/C0A6BBW662E"
           target="_blank"
-          class="h-10 flex items-center gap-1.5 font-bold bg-accent px-4 rounded-lg duration-100 hover:-translate-y-1 no-underline text-white"
+          class="h-10 flex items-center gap-1.5 font-bold bg-[#4D6E2F] px-4 rounded-lg duration-100 hover:-translate-y-1 no-underline text-white"
         >
           <iconify-icon icon="mdi:slack" class="text-xl"></iconify-icon>
           <span>Join the Slack!</span>

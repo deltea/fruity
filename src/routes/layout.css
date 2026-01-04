@@ -11,7 +11,7 @@
 
 @layer base {
   a {
-    @apply underline decoration-2 text-accent;
+    @apply underline decoration-2 font-bold text-accent;
   }
 
   h2 {
@@ -24,7 +24,6 @@
   --color-bg: #0E171B;
   --color-bg-1: #121E24;
   --color-bg-2: #1C2A30;
-  --color-stuff: #131e23;
   --color-accent: #ed7636;
   --font-sans: "Nunito", sans-serif;
 
