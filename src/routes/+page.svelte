@@ -26,9 +26,9 @@
         "welcome to fruity, a hack club ysws all about music!",
         "i'm fl-chan! your guide to all things fruity :D",
         "this website is still under construction, so check back later for more updates!"
-      ]} />
+      ]}/>
 
-      <section>
+      <section class="mt-12">
         <p>
           Do <i>🫵 you</i> like music? (yes you do)
           Are <i>🫵 you</i> interested in making music?
