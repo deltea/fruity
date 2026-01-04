@@ -75,7 +75,7 @@
         </Accordion.Root>
       </section>
 
-      <div class="flex justify-center items-center mt-16">
+      <div class="flex flex-col sm:flex-row justify-center items-center mt-16">
         <a
           href="https://fruity.fillout.com/rsvp"
           target="_blank"
@@ -84,10 +84,16 @@
           Click here to RSVP!
         </a>
 
-        <div class="flex flex-col items-center gap-1 mx-8">
+        <div class="sm:flex hidden flex-col items-center gap-1 mx-8">
           <span class="text-bg-2">|</span>
           <span class="text-muted">and</span>
           <span class="text-bg-2">|</span>
+        </div>
+
+        <div class="flex w-full gap-4 sm:hidden items-center my-4">
+          <hr class="grow border-bg-2"/>
+          <span class="text-muted">and</span>
+          <hr class="grow border-bg-2"/>
         </div>
 
         <a
