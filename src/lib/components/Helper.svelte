@@ -1,18 +1,50 @@
 <script lang="ts">
+  import { onMount } from "svelte";
+
+  const charDuration = 20;
   let currentLine = $state(0);
-  let isAnimating = $state(false);
+  let isAnimating = $state(true);
+  let currentText = $state("");
+  let currentInterval: NodeJS.Timeout;
+  let currentTimeout: NodeJS.Timeout;
 
   let { lines }: { lines: string[] } = $props();
 
   function onClick() {
     if (isAnimating) {
-      // skip animation
+      finishAnimation();
     } else {
       if (currentLine < lines.length - 1) {
-        currentLine += 1;
+        changeLine(currentLine + 1);
       }
     }
   }
+
+  function finishAnimation() {
+    clearInterval(currentInterval);
+    clearTimeout(currentTimeout);
+    currentText = lines[currentLine];
+    isAnimating = false;
+  }
+
+  function changeLine(line: number) {
+    currentLine = line;
+    isAnimating = true;
+    currentText = "";
+    currentTimeout = setTimeout(() => {
+      isAnimating = false;
+    }, charDuration * lines[currentLine].length);
+    let i = 0;
+    currentInterval = setInterval(() => {
+      currentText = lines[currentLine].slice(0, i);
+      i++;
+      if (i > lines[currentLine].length) clearInterval(currentInterval);
+    }, charDuration);
+  }
+
+  onMount(() => {
+    changeLine(0);
+  })
 
 </script>
 
@@ -21,7 +53,7 @@
   <div class="grow flex items-stretch relative">
     <div class="w-0 h-0 border-t-12 border-b-12 border-r-12 border-t-transparent border-b-transparent border-r-bg-2 translate-y-6"></div>
     <p class="bg-bg-2 rounded-2xl grow px-4 py-3 w-full font-bold">
-      {lines[currentLine]}
+      {currentText}
     </p>
   </div>
 
