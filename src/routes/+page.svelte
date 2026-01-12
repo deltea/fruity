@@ -8,14 +8,14 @@
   <main class="w-2xl space-y-16 mb-16">
     <header class="flex justify-between">
       <div class="flex sm:items-end items-center sm:gap-2 sm:flex-row flex-col">
-        <a href="/" class="text-accent no-underline inline-flex items-baseline text-3xl font-black group">
+        <a href="/" class="text-primary no-underline inline-flex items-baseline text-3xl font-black group">
           <img src="/logo-outline.png" alt="Fruity Logo" class="h-8 translate-y-1 group-hover:rotate-12 duration-100">
           <span>Fruity!</span>
         </a>
         <span>by Hack Club</span>
       </div>
 
-      <a href="https://fruity.fillout.com/rsvp" target="_blank" class="h-10 flex items-center font-bold bg-accent px-4 rounded-lg duration-100 hover:-translate-y-1 no-underline text-white">
+      <a href="https://fruity.fillout.com/rsvp" target="_blank" class="h-10 flex items-center font-bold bg-stripes px-4 rounded-lg duration-100 hover:-translate-y-1 no-underline text-white">
         Sign Up!
       </a>
     </header>
@@ -82,7 +82,7 @@
         <a
           href="https://fruity.fillout.com/rsvp"
           target="_blank"
-          class="h-10 flex items-center font-bold bg-accent px-4 rounded-lg duration-100 hover:-translate-y-1 no-underline text-white"
+          class="h-10 flex items-center font-bold bg-stripes px-4 rounded-lg duration-100 hover:-translate-y-1 no-underline text-white"
         >
           Click here to RSVP!
         </a>
@@ -102,7 +102,7 @@
         <a
           href="https://hackclub.enterprise.slack.com/archives/C0A6BBW662E"
           target="_blank"
-          class="h-10 flex items-center gap-1.5 font-bold bg-[#4D6E2F] px-4 rounded-lg duration-100 hover:-translate-y-1 no-underline text-white"
+          class="h-10 flex items-center gap-1.5 font-bold bg-stripes bg-stripes-green px-4 rounded-lg duration-100 hover:-translate-y-1 no-underline text-white"
         >
           <iconify-icon icon="mdi:slack" class="text-xl"></iconify-icon>
           <span>Join the Slack!</span>
