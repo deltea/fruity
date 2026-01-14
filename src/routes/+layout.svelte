@@ -19,8 +19,8 @@
 	<title>Fruity!</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="title" content="Fruity!" />
-	<meta name="description" content="Make a music-related project, and get FL studio!" />
-	<meta name="keywords" content="FL Studio, Hack Club, Music, DAW, Fruity Edition, Free Software" />
+	<meta name="description" content="Make a music-related project, and get a DAW!" />
+	<meta name="keywords" content="FL Studio, Hack Club, Music, DAW, Fruity Edition, Ableton Live, Logic Pro, Free Software" />
 </svelte:head>
 
 <div

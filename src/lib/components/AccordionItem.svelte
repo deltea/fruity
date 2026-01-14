@@ -6,7 +6,7 @@
 
 <Accordion.Item value={title} class="group">
   <Accordion.Header>
-    <Accordion.Trigger class="w-full flex p-4 justify-between items-center bg-bg-2 cursor-pointer rounded-lg group [&[data-state=open]>iconify-icon]:rotate-180">
+    <Accordion.Trigger class="w-full flex p-4 justify-between items-center bg-bg-2 cursor-pointer rounded-3xl corner-squircle group [&[data-state=open]>iconify-icon]:rotate-180">
       <span>{title}</span>
       <iconify-icon icon="mingcute:down-fill" class="text-2xl duration-200"></iconify-icon>
     </Accordion.Trigger>

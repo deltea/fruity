@@ -32,14 +32,14 @@
         <p>
           Do <i>🫵 you</i> like music? (yes you do)
           Are <i>🫵 you</i> interested in making music?
-          Have <i>🫵 you</i> heard of FL Studio?
+          Do <i>🫵 you</i> want a DAW?
           If you answered yes to all the above (or maybe not), then this YSWS is for you!
         </p>
         <div class="text-center my-6">
           presenting...
           <span class="font-bold text-2xl block">Fruity!</span>
         </div>
-        <p>A new hack club YSWS (you ship we ship) program focused on digital projects related to music. Make a music related coding project, get FL Studio!</p>
+        <p>A new hack club YSWS (you ship we ship) program focused on digital projects related to music.</p>
       </section>
 
       <section>
@@ -56,7 +56,7 @@
 
       <section>
         <h2 class="mb-4">We Ship</h2>
-        Get <a href="https://www.image-line.com/" target="_blank">FL Studio</a> (Fruity Edition) to start your music creation journey! (we might even be able to implement some kind of shop where you can buy plugins)
+        Get a <a href="https://en.wikipedia.org/wiki/Digital_audio_workstation" target="_blank">DAW</a> (digital audio workstation) to start your music creation journey!
       </section>
 
       <section>
@@ -67,13 +67,13 @@
             No. You can only submit one project per person.
           </AccordionItem>
           <AccordionItem title="How do I track my time?">
-            Use Hackatime, an editor extension that tracks the time you spend coding. You can install it <a href="https://hackatime.hackclub.com/"  target="_blank">here</a>!
+            Use Hackatime, an editor extension that tracks the time you spend coding. You can install it <a href="https://hackatime.hackclub.com/" target="_blank">here</a>!
           </AccordionItem>
           <AccordionItem title="Can I submit a hardware project?">
             Sorry, but no. Only digital projects are allowed.
           </AccordionItem>
-          <AccordionItem title="Can I get a different DAW?">
-            Possibly in the future, but for now we are only offering FL Studio.
+          <AccordionItem title="Which DAWs are available?">
+            You can submit a DAW to the wishlist <a href="https://fruity.fillout.com/daw" target="_blank">here</a>.
           </AccordionItem>
         </Accordion.Root>
       </section>
