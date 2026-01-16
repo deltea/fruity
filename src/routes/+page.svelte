@@ -8,14 +8,14 @@
   <main class="w-2xl space-y-16 mb-16">
     <header class="flex justify-between">
       <div class="flex sm:items-end items-center sm:gap-2 sm:flex-row flex-col">
-        <a href="/" class="text-primary no-underline inline-flex items-baseline text-3xl font-black group">
+        <a href="/" class="decoration-2 text-primary inline-flex items-baseline text-3xl font-black group">
           <img src="/logo-outline.png" alt="Fruity Logo" class="h-8 translate-y-1 group-hover:rotate-12 duration-100">
           <span>Fruity!</span>
         </a>
         <span>by Hack Club</span>
       </div>
 
-      <a href="https://fruity.fillout.com/rsvp" target="_blank" class="h-10 flex items-center font-bold bg-stripes px-4 rounded-lg duration-100 hover:-translate-y-1 no-underline text-white">
+      <a href="https://fruity.fillout.com/rsvp" target="_blank" class="h-10 flex items-center font-bold bg-stripes px-4 rounded-lg duration-100 hover:-translate-y-1 text-white">
         Sign Up!
       </a>
     </header>
@@ -56,7 +56,7 @@
 
       <section>
         <h2 class="mb-4">We Ship</h2>
-        Get a <a href="https://en.wikipedia.org/wiki/Digital_audio_workstation" target="_blank">DAW</a> (digital audio workstation) to start your music creation journey!
+        Get a <a href="https://en.wikipedia.org/wiki/Digital_audio_workstation" target="_blank" class="underline decoration-2 font-bold text-primary">DAW</a> (digital audio workstation) to start your music creation journey!
       </section>
 
       <section>
@@ -67,13 +67,13 @@
             No. You can only submit one project per person.
           </AccordionItem>
           <AccordionItem title="How do I track my time?">
-            Use Hackatime, an editor extension that tracks the time you spend coding. You can install it <a href="https://hackatime.hackclub.com/" target="_blank">here</a>!
+            Use Hackatime, an editor extension that tracks the time you spend coding. You can install it <a href="https://hackatime.hackclub.com/" target="_blank" class="underline decoration-2 font-bold text-primary">here</a>!
           </AccordionItem>
           <AccordionItem title="Can I submit a hardware project?">
             Sorry, but no. Only digital projects are allowed.
           </AccordionItem>
           <AccordionItem title="Which DAWs are available?">
-            You can submit a DAW to the wishlist <a href="https://fruity.fillout.com/daw" target="_blank">here</a>.
+            You can submit a DAW to the wishlist <a href="https://fruity.fillout.com/daw" target="_blank" class="underline decoration-2 font-bold text-primary">here</a>.
           </AccordionItem>
         </Accordion.Root>
       </section>
