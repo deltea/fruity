@@ -32,8 +32,6 @@
         <p>
           Do <i>🫵 you</i> like music? (yes you do)
           Are <i>🫵 you</i> interested in making music?
-          Do <i>🫵 you</i> want a DAW?
-          If you answered yes to all the above (or maybe not), then this YSWS is for you!
         </p>
         <div class="text-center my-6">
           presenting...
