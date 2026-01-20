@@ -35,7 +35,7 @@
         </p>
         <div class="text-center my-6">
           presenting...
-          <span class="font-bold text-2xl block">Fruity!</span>
+          <span class="font-bold text-2xl">Fruity!</span>
         </div>
         <p class="w-lg italic">A new Hack Club YSWS (you ship we ship) program focused on digital projects related to music.</p>
       </section>
@@ -107,6 +107,8 @@
         </a>
       </div>
     </article>
+
+    
   </main>
 
   <a href="https://hackclub.com/" target="_blank">
