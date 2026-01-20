@@ -10,10 +10,6 @@
 }
 
 @layer base {
-  a {
-    @apply underline decoration-2 font-bold text-primary;
-  }
-
   h2 {
     @apply text-2xl font-extrabold;
   }
@@ -91,5 +87,5 @@
 }
 
 body {
-  @apply bg-bg sm:text-lg text-base underline-offset-2 font-medium text-white selection:bg-primary selection:text-white;
+  @apply bg-bg sm:text-base text-base underline-offset-2 font-medium text-white selection:bg-primary selection:text-white;
 }
