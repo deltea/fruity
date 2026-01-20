@@ -1,7 +1,5 @@
 <script lang="ts">
-    import { daws } from "$lib/daws";
-
-
+  import { daws } from "$lib/daws";
 </script>
 
 <div class="flex justify-center h-full py-8 sm:px-8 px-6">

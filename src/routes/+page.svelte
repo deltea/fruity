@@ -28,18 +28,16 @@
         "this website is still under construction, so check back later for more updates!"
       ]}/>
 
-      <section class="mt-12">
-        <p>
-          Do <i>🫵 you</i> like music? (yes you do)
-          Are <i>🫵 you</i> interested in making music?
-          Do <i>🫵 you</i> want a DAW?
-          If you answered yes to all the above (or maybe not), then this YSWS is for you!
+      <section class="mt-12 text-center flex flex-col items-center">
+        <p class="text-center">
+          Do 🫵 <i>you</i> like music? (yes you do)<br>
+          Are 🫵 <i>you</i> interested in making music?
         </p>
         <div class="text-center my-6">
           presenting...
           <span class="font-bold text-2xl block">Fruity!</span>
         </div>
-        <p>A new hack club YSWS (you ship we ship) program focused on digital projects related to music.</p>
+        <p class="w-lg italic">A new Hack Club YSWS (you ship we ship) program focused on digital projects related to music.</p>
       </section>
 
       <section>
@@ -56,7 +54,7 @@
 
       <section>
         <h2 class="mb-4">We Ship</h2>
-        Get a <a href="https://en.wikipedia.org/wiki/Digital_audio_workstation" target="_blank" class="underline decoration-2 font-bold text-primary">DAW</a> (digital audio workstation) to start your music creation journey!
+        Get a <a href="https://en.wikipedia.org/wiki/Digital_audio_workstation" target="_blank" class="underline decoration-2 font-bold text-primary">DAW</a> (digital audio workstation) of your choice to start your music creation journey!
       </section>
 
       <section>
@@ -64,13 +62,13 @@
 
         <Accordion.Root type="multiple" class="w-full space-y-2">
           <AccordionItem title="Can I submit multiple projects?">
-            No. You can only submit one project per person.
+            No. You may only submit one project per person.
           </AccordionItem>
           <AccordionItem title="How do I track my time?">
             Use Hackatime, an editor extension that tracks the time you spend coding. You can install it <a href="https://hackatime.hackclub.com/" target="_blank" class="underline decoration-2 font-bold text-primary">here</a>!
           </AccordionItem>
           <AccordionItem title="Can I submit a hardware project?">
-            Sorry, but no. Only digital projects are allowed.
+            Sorry, only digital projects are allowed.
           </AccordionItem>
           <AccordionItem title="Which DAWs are available?">
             You can submit a DAW to the wishlist <a href="https://fruity.fillout.com/daw" target="_blank" class="underline decoration-2 font-bold text-primary">here</a>.
