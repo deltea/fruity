@@ -60,7 +60,7 @@
       <section>
         <h2 class="mb-4">FAQ</h2>
 
-        <Accordion.Root type="multiple" class="w-full space-y-2">
+        <Accordion.Root type="single" class="w-full space-y-2">
           <AccordionItem title="Can I submit multiple projects?">
             No. You may only submit one project per person.
           </AccordionItem>
