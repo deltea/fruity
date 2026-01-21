@@ -2,6 +2,7 @@
   import { Accordion } from "bits-ui";
   import AccordionItem from "$components/AccordionItem.svelte";
   import Helper from "$components/Helper.svelte";
+    import Divider from "$components/Divider.svelte";
 </script>
 
 <div class="flex justify-center h-full py-8 sm:px-8 px-6">
@@ -20,7 +21,7 @@
       </a>
     </header>
 
-    <article class="space-y-8">
+    <article class="space-y-10">
       <Helper lines={[
         "yo whats up",
         "welcome to fruity, a hack club ysws all about music!",
@@ -41,7 +42,8 @@
       </section>
 
       <section>
-        <h2 class="mb-4">You Ship</h2>
+        <h2>You Ship</h2>
+        <Divider />
 
         <p>Any digital project related to music! Could be a website, app, game, etc! Some ideas include:</p>
         <ul class="list-disc list-inside">
@@ -53,12 +55,15 @@
       </section>
 
       <section>
-        <h2 class="mb-4">We Ship</h2>
+        <h2>We Ship</h2>
+        <Divider />
+
         Get a <a href="https://en.wikipedia.org/wiki/Digital_audio_workstation" target="_blank" class="underline decoration-2 font-bold text-primary">DAW</a> (digital audio workstation) of your choice to start your music creation journey!
       </section>
 
       <section>
-        <h2 class="mb-4">FAQ</h2>
+        <h2>FAQ</h2>
+        <Divider />
 
         <Accordion.Root type="single" class="w-full space-y-2">
           <AccordionItem title="Can I submit multiple projects?">

@@ -74,6 +74,15 @@
   --color-stripes-bg: var(--color-secondary-dark);
   --color-stripes-fg: var(--color-secondary);
 }
+@utility border-dashed {
+  background-image: url("/dashed.svg");
+  background-repeat: repeat;
+  background-size: 16px 16px;
+}
+@utility corner-squircle {
+  corner-shape: squircle;
+}
+
 @keyframes stripe-move {
   0% {
     background-position: 0 0;
@@ -81,9 +90,6 @@
   100% {
     background-position: -33.9411254969543px 0;
   }
-}
-@utility corner-squircle {
-  corner-shape: squircle;
 }
 
 body {
