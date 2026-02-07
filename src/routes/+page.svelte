@@ -9,7 +9,7 @@
 
 <div class="flex justify-center h-full">
   <main class="size-full">
-    <div class="absolute left-0 -top-2 w-full h-12 bg-repeat rotate-180 bg-contain bg-[url('images/waves-pattern-orange.svg')]"></div>
+    <div class="absolute left-0 -top-2 w-full h-12 bg-repeat rotate-180 bg-contain bg-[url('/images/waves-pattern-orange.svg')]"></div>
 
     <header class="flex gap-4 w-full absolute top-0 left-0 justify-end px-10 pt-20">
       <a
@@ -52,7 +52,7 @@
     </section>
 
     <!-- description -->
-    <div class="w-full h-12 bg-repeat bg-contain bg-[url('images/waves-pattern.svg')]"></div>
+    <div class="w-full h-12 bg-repeat bg-contain bg-[url('/images/waves-pattern.svg')]"></div>
     <section class="bg-surface px-10 py-10 pb-16 flex justify-center">
       <div class="w-6xl">
         <h2 class="font-extrabold mb-10">( what is this? )</h2>
@@ -103,7 +103,7 @@
     </section>
 
     <!-- faq -->
-    <div class="w-full h-12 bg-repeat bg-contain bg-[url('images/waves-pattern-orange.svg')]"></div>
+    <div class="w-full h-12 bg-repeat bg-contain bg-[url('/images/waves-pattern-orange.svg')]"></div>
     <section class="bg-primary px-10 py-4 flex justify-center">
       <div class="w-6xl">
         <h2 class="font-extrabold mb-10">( frequently asked questions )</h2>
@@ -131,7 +131,7 @@
         </Accordion.Root>
       </div>
     </section>
-    <div class="w-full h-12 bg-repeat rotate-180 bg-contain bg-[url('images/waves-pattern-orange.svg')]"></div>
+    <div class="w-full h-12 bg-repeat rotate-180 bg-contain bg-[url('/images/waves-pattern-orange.svg')]"></div>
 
     <Footer />
   </main>
