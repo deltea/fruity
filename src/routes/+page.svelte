@@ -54,13 +54,13 @@
     <!-- description -->
     <div class="w-full h-12 bg-repeat bg-contain bg-[url('/images/waves-pattern.svg')]"></div>
     <section class="bg-surface px-10 py-10 pb-16 flex justify-center">
-      <div class="w-6xl">
+      <div class="max-w-6xl">
         <h2 class="font-extrabold mb-10">( what is this? )</h2>
 
-        <div class="flex gap-2 justify-center relative">
-          <div class="corner-squircle p-10 flex flex-col text-center rounded-[3rem] bg-primary-dim size-112 -rotate-6 hover:-rotate-10 duration-200">
+        <div class="flex lg:flex-row flex-col gap-2 justify-center relative">
+          <div class="corner-squircle p-10 flex flex-col text-center rounded-[3rem] bg-primary-dim lg:size-112 w-80 -rotate-6 hover:-rotate-10 duration-200">
             <h3 class="font-bold text-xl bg-primary corner-squircle px-6 py-4 rounded-3xl">you ship a project!</h3>
-            <div class="grow flex flex-col gap-8 justify-center p-10">
+            <div class="grow flex flex-col gap-8 justify-center lg:p-10 pt-10">
               <p>It can be any digital project related to music, like a website, app, game, etc! Some ideas include:</p>
               <ul class="list-disc list-inside">
                 <li>A rhythm game</li>
@@ -71,11 +71,11 @@
             </div>
           </div>
 
-          <img src="/images/arrow.svg" alt="Loopy Arrow" class="absolute bottom-0 left-1/2 -translate-x-1/2 h-16 z-10">
+          <img src="/images/arrow.svg" alt="Loopy Arrow" class="absolute bottom-0 left-1/2 -translate-x-1/2 h-16 z-10 hidden lg:block">
 
-          <div class="corner-squircle p-10 flex flex-col text-center rounded-[3rem] bg-secondary-dim size-112 rotate-6 hover:rotate-10 duration-200">
+          <div class="corner-squircle p-10 flex flex-col text-center rounded-[3rem] bg-secondary-dim lg:size-112 w-80 rotate-6 hover:rotate-10 duration-200">
             <h3 class="font-bold text-xl bg-secondary corner-squircle px-6 py-4 rounded-3xl">we ship you a daw!</h3>
-            <div class="grow flex flex-col gap-8 justify-center p-10">
+            <div class="grow flex flex-col gap-8 justify-center lg:p-10 pt-10">
               <p>Get a <a href="https://en.wikipedia.org/wiki/Digital_audio_workstation" class="underline decoration-2 font-bold">DAW</a> (digital audio workstation) of your choice to start your music creation journey! For example:</p>
               <ul class="list-disc list-inside">
                 <li>FL Studio</li>
@@ -91,8 +91,8 @@
     <div class="w-full h-12 bg-repeat rotate-180 bg-contain bg-[url('/images/waves-pattern.svg')]"></div>
 
     <!-- shop preview -->
-    <section class="p-10 py-32 flex justify-center">
-      <div class="w-6xl">
+    <section class="lg:p-10 lg:py-32 px-4 py-16 flex justify-center">
+      <div class="max-w-6xl w-full">
         <Helper lines={[
           "yo whats up",
           "welcome to fruity, a hack club ysws all about music!",
@@ -104,8 +104,8 @@
 
     <!-- faq -->
     <div class="w-full h-12 bg-repeat bg-contain bg-[url('/images/waves-pattern-orange.svg')]"></div>
-    <section class="bg-primary px-10 py-4 flex justify-center">
-      <div class="w-6xl">
+    <section class="bg-primary lg:px-10 px-4 py-4 flex justify-center">
+      <div class="max-w-6xl text-center lg:text-left">
         <h2 class="font-extrabold mb-10">( frequently asked questions )</h2>
         <!-- TODO: make this better (open all accordions) -->
         <Accordion.Root
