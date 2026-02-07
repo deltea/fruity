@@ -65,21 +65,33 @@
       <div class="w-6xl">
         <h2 class="font-extrabold mb-10">( what is this? )</h2>
 
-        <div class="flex gap-2">
-          <div class="corner-squircle p-10 flex flex-col gap-4 text-center justify-center items-center rounded-[3rem] bg-secondary border-8 border-secondary-dim size-128 -rotate-6">
-            <h3 class="font-bold text-xl">you ship a project:</h3>
-            <p>Any digital project related to music! Could be a website, app, game, etc! Some ideas include:</p>
-            <ul class="list-disc list-inside">
-              <li>A rhythm game</li>
-              <li>Last.fm integration</li>
-              <li>Beat maker</li>
-              <li>Or whatever else you think of!</li>
-            </ul>
+        <div class="flex gap-2 justify-center relative">
+          <div class="corner-squircle p-10 flex flex-col text-center rounded-[3rem] bg-primary-dim size-112 -rotate-6">
+            <h3 class="font-bold text-xl bg-primary corner-squircle px-6 py-4 rounded-3xl">you ship a project!</h3>
+            <div class="grow flex flex-col gap-8 justify-center p-10">
+              <p>It can be any digital project related to music, like a website, app, game, etc! Some ideas include:</p>
+              <ul class="list-disc list-inside">
+                <li>A rhythm game</li>
+                <li>Last.fm integration</li>
+                <li>Beat maker</li>
+                <li>Or whatever else you think of!</li>
+              </ul>
+            </div>
           </div>
-          <!-- <iconify-icon icon="mingcute:arrow-right-fill" class="text-2xl"></iconify-icon> -->
-          <div class="corner-squircle p-10 flex flex-col gap-4 text-center justify-center items-center rounded-[3rem] bg-primary border-8 border-primary-dim size-128 rotate-6">
-            <h3 class="font-bold text-xl">we ship a DAW:</h3>
-            <p>Get a <a href="https://en.wikipedia.org/wiki/Digital_audio_workstation" class="underline decoration-2 font-bold">DAW</a> (digital audio workstation) of your choice to start your music creation journey!</p>
+
+          <img src="/images/arrow.svg" alt="Loopy Arrow" class="absolute bottom-0 left-1/2 -translate-x-1/2 h-16 z-10">
+
+          <div class="corner-squircle p-10 flex flex-col text-center rounded-[3rem] bg-secondary-dim size-112 rotate-6">
+            <h3 class="font-bold text-xl bg-secondary corner-squircle px-6 py-4 rounded-3xl">we ship you a daw!</h3>
+            <div class="grow flex flex-col gap-8 justify-center p-10">
+              <p>Get a <a href="https://en.wikipedia.org/wiki/Digital_audio_workstation" class="underline decoration-2 font-bold">DAW</a> (digital audio workstation) of your choice to start your music creation journey! For example:</p>
+              <ul class="list-disc list-inside">
+                <li>FL Studio</li>
+                <li>Logic Pro</li>
+                <li>Beatwig Studio</li>
+                <li>Ableton Live</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

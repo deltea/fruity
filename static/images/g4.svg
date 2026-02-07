@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="410.86411"
+   height="199.61081"
+   viewBox="0 0 102.71603 49.902702"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="false"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     inkscape:zoom="1.1458542"
+     inkscape:cx="580.35306"
+     inkscape:cy="293.23102"
+     inkscape:window-width="1688"
+     inkscape:window-height="1015"
+     inkscape:window-x="12"
+     inkscape:window-y="52"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     showborder="true"
+     borderlayer="true"
+     labelstyle="default"
+     inkscape:antialias-rendering="true"
+     inkscape:clip-to-page="false">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="102.71603"
+       height="49.902702"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-31.012244,-38.644516)">
+    <g
+       id="g3"
+       inkscape:export-filename="arrow.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <g
+         id="g4">
+        <path
+           style="fill:none;stroke:#ffffff;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+           d="M 33.012245,47.604478 C 48.59687,101.5458 89.788574,89.304297 89.958101,70.718506 90.130678,51.798135 64.563837,51.477589 64.218645,70.198517 63.861197,89.5841 107.57794,101.57131 124.73848,47.515462"
+           id="path2"
+           sodipodi:nodetypes="cssc" />
+        <path
+           style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:3.14113;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+           d="m 116.91399,46.135911 15.2439,3.402114 -5.92089,-9.323004 z"
+           id="path3" />
+      </g>
+    </g>
+  </g>
+</svg>
