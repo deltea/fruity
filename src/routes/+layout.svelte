@@ -16,9 +16,9 @@
 </script>
 
 <svelte:head>
-	<title>Fruity! by Hack Club</title>
+	<title>fruity! by Hack Club</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="title" content="Fruity! by Hack Club" />
+	<meta name="title" content="fruity! by Hack Club" />
 	<meta name="description" content="Make a music-related project, and get a DAW!" />
 	<meta name="keywords" content="FL Studio, Hack Club, Music, DAW, Fruity Edition, Ableton Live, Logic Pro, Free Software" />
 </svelte:head>
