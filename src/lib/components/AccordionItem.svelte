@@ -1,10 +1,15 @@
 <script lang="ts">
   import { Accordion } from "bits-ui";
+    import type { Snippet } from "svelte";
 
-  let { title, children } = $props();
+  let { id, title, children }: {
+    id: string,
+    title: string,
+    children: Snippet
+  } = $props();
 </script>
 
-<Accordion.Item value={title} class="group">
+<Accordion.Item value={id} class="group">
   <Accordion.Header>
     <Accordion.Trigger class="w-full flex p-4 justify-between items-center bg-primary-dim cursor-pointer rounded-2xl corner-squircle group [&[data-state=open]>iconify-icon]:rotate-180">
       <span>{title}</span>
