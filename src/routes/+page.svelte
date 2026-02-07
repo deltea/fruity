@@ -88,7 +88,7 @@
         </div>
       </div>
     </section>
-    <div class="w-full h-12 bg-repeat rotate-180 bg-contain bg-[url('images/waves-pattern.svg')]"></div>
+    <div class="w-full h-12 bg-repeat rotate-180 bg-contain bg-[url('/images/waves-pattern.svg')]"></div>
 
     <!-- shop preview -->
     <section class="p-10 py-32 flex justify-center">
