@@ -73,7 +73,7 @@
   });
 </script>
 
-<div class="relative flex justify-center items-center w-[600px] h-[200px] hover:scale-105 duration-200">
+<div class="relative lg:flex hidden justify-center items-center w-[600px] h-[200px] hover:scale-105 duration-200">
   <svg
     width="600"
     height="200"
@@ -98,4 +98,8 @@
   </svg>
 
   <div class="z-10">{@render children()}</div>
+</div>
+
+<div class="z-10 lg:hidden block bg-surface corner-squircle px-8 py-6 rounded-3xl">
+  {@render children()}
 </div>

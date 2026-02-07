@@ -11,7 +11,7 @@
   <main class="size-full">
     <div class="absolute left-0 -top-2 w-full h-12 bg-repeat rotate-180 bg-contain bg-[url('/images/waves-pattern-orange.svg')]"></div>
 
-    <header class="flex gap-4 w-full absolute top-0 left-0 justify-end px-10 pt-20">
+    <header class="flex gap-4 w-full absolute top-0 left-0 lg:justify-end justify-center px-10 lg:pt-20 pt-14">
       <a
         href="https://fruity.fillout.com/rsvp"
         target="_blank"
@@ -31,23 +31,25 @@
     </header>
 
     <!-- hero -->
-    <section class="h-screen flex flex-col justify-center items-center">
-      <div class="w-4xl flex flex-col items-center">
-        <div class="space-y-4 mb-32">
+    <section class="h-screen flex flex-col justify-center items-center relative">
+      <div class="max-w-4xl flex flex-col items-center px-4">
+        <div class="space-y-4 lg:mb-32 mb-16">
           <p class="text-2xl font-bold">presenting...</p>
           <h1 class="flex gap-1 items-center bg-stripes-static px-9 py-7 before:rounded-[3rem] before:corner-squircle hover:scale-105 duration-200">
-            <img src="/images/logo-outline.png" alt="Fruity Logo" class="size-18 animate-wobble">
-            <span class="text-text text-7xl font-black">fruity!</span>
+            <img src="/images/logo-outline.png" alt="Fruity Logo" class="lg:size-18 size-12 animate-wobble">
+            <span class="text-text lg:text-7xl text-5xl font-black">fruity!</span>
           </h1>
           <p class="text-2xl font-bold float-right">by Hack Club</p>
         </div>
 
-        <AnimatedDialogue color="var(--color-surface)">
-          <p class="text-text text-center font-bold text-lg">
-            a new hack club ysws!<br>
-            make a music related project, and get a daw!
-          </p>
-        </AnimatedDialogue>
+        <div class="lg:static absolute bottom-4 px-4">
+          <AnimatedDialogue color="var(--color-surface)">
+            <p class="text-text text-center font-bold text-lg">
+              a new hack club ysws!<br>
+              make a music related project, and get a daw!
+            </p>
+          </AnimatedDialogue>
+        </div>
       </div>
     </section>
 
