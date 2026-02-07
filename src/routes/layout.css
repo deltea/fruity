@@ -9,23 +9,38 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Gilroy";
+  src: url("/fonts/gilroy/Gilroy-ExtraBold.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
 @layer base {
   h2 {
-    @apply text-2xl font-extrabold;
+    @apply text-2xl font-extrabold tracking-wide;
+  }
+
+  body {
+    @apply bg-bg text-base underline-offset-2 font-medium text-white selection:bg-primary selection:text-white;
   }
 }
 
 @theme {
-  --color-muted: #8899A6;
   --color-bg: #0E171B;
-  --color-bg-1: #121E24;
-  --color-bg-2: #1C2A30;
+  --color-text: #ffffff;
+  --color-text-dim: #8899A6;
+  --color-surface: #1C2A30;
   --color-primary: #ed7636;
-  --color-primary-dark: #d9692d;
-  --color-secondary: #4D6E2F;
-  --color-secondary-dark: #415b27;
+  --color-primary-dim: #d9692d;
+  --color-secondary: #5a7f38;
+  --color-secondary-dim: #4a6b2f;
 
   --font-sans: "Nunito", sans-serif;
+  --font-gilroy: "Gilroy", sans-serif;
+
+  --height-screen: 100dvh;
+  --animate-wobble: wobble 1s ease-in-out infinite;
 
   @keyframes accordion-down {
 		from {
@@ -44,6 +59,27 @@
 			height: 0;
 		}
 	}
+
+  @keyframes stripe-move {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: -33.9411254969543px 0;
+    }
+  }
+
+  @keyframes wobble {
+    0% {
+      transform: rotate(-5deg);
+    }
+    50% {
+      transform: rotate(5deg);
+    }
+    100% {
+      transform: rotate(-5deg);
+    }
+  }
 }
 
 @utility bg-stripes {
@@ -51,9 +87,9 @@
 
   &::before {
     content: "";
-    @apply absolute inset-0 -z-10 shadow-md rounded-4xl corner-squircle transition;
+    @apply absolute inset-0 -z-10 transition;
 
-    background-color: var(--color-stripes-bg, var(--color-primary-dark));
+    background-color: var(--color-stripes-bg, var(--color-primary-dim));
     background-image: repeating-linear-gradient(
       -45deg,
       transparent,
@@ -70,8 +106,27 @@
     animation: stripe-move 1s linear infinite;
   }
 }
+@utility bg-stripes-static {
+  @apply relative isolate;
+
+  &::before {
+    content: "";
+    @apply absolute inset-0 -z-10 transition;
+
+    background-color: var(--color-stripes-bg, var(--color-primary-dim));
+    background-image: repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 20px,
+      var(--color-stripes-fg, var(--color-primary)) 20px,
+      var(--color-stripes-fg, var(--color-primary)) 40px
+    );
+    background-size: 200% 100%;
+    background-position: 0 0;
+  }
+}
 @utility bg-stripes-green {
-  --color-stripes-bg: var(--color-secondary-dark);
+  --color-stripes-bg: var(--color-secondary-dim);
   --color-stripes-fg: var(--color-secondary);
 }
 @utility border-dashed {
@@ -81,17 +136,4 @@
 }
 @utility corner-squircle {
   corner-shape: squircle;
-}
-
-@keyframes stripe-move {
-  0% {
-    background-position: 0 0;
-  }
-  100% {
-    background-position: -33.9411254969543px 0;
-  }
-}
-
-body {
-  @apply bg-bg sm:text-base text-base underline-offset-2 font-medium text-white selection:bg-primary selection:text-white;
 }

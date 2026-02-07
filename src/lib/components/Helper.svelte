@@ -49,15 +49,17 @@
 </script>
 
 <button onclick={onClick} class="flex items-stretch cursor-pointer w-full text-left relative">
-  <img src="/fl-chan.gif" alt="FL-chan" class="h-24">
+  <img src="/images/fl-chan.gif" alt="FL-chan" class="h-24">
   <div class="grow flex items-stretch relative">
-    <div class="w-0 h-0 border-t-12 border-b-12 border-r-12 border-t-transparent border-b-transparent border-r-bg-2 translate-y-6"></div>
-    <p class="bg-bg-2 rounded-3xl grow px-4 py-3 w-full font-bold corner-squircle">
+    <div class="w-0 h-0 border-t-12 border-b-12 border-r-12 border-t-transparent border-b-transparent border-r-surface translate-y-6"></div>
+    <p class="bg-surface rounded-3xl grow px-4 py-3 w-full font-bold corner-squircle">
       {currentText}
     </p>
   </div>
 
   {#if currentLine < lines.length - 1}
-    <p class="animate-pulse absolute text-muted bottom-2 right-4">click to continue...</p>
+    <p class="animate-pulse flex items-center absolute bottom-2 right-4">
+      click to continue >
+    </p>
   {/if}
 </button>

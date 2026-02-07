@@ -22,7 +22,7 @@
 
     <div class="grid gap-6 grid-cols-2">
       {#each daws as daw}
-        <div class="flex flex-col items-center gap-4 p-4 bg-bg-2 corner-squircle rounded-3xl hover:shadow-2xl hover:-translate-y-1 duration-100">
+        <div class="flex flex-col items-center gap-4 p-4 bg-bg-surface corner-squircle rounded-3xl hover:shadow-2xl hover:-translate-y-1 duration-100">
           <div class="bg-cover bg-center corner-squircle rounded-3xl w-full h-52" style:background-image="url('{daw.image}')"></div>
           <div class="flex items-center justify-between w-full">
             <h3 class="text-white font-bold text-xl">{daw.name}</h3>
@@ -31,7 +31,7 @@
               <span>{daw.price}</span>
             </p>
           </div>
-          <p class="text-muted">{daw.description}</p>
+          <p class="text-text-dim">{daw.description}</p>
           <div class="flex gap-3 w-full">
             <a href={daw.url} target="_blank" class="flex-1 h-10 flex items-center justify-center font-bold bg-stripes bg-stripes-green px-4 rounded-lg duration-100 hover:-translate-y-1 text-white">About</a>
             <a href="#" class="flex-1 h-10 flex items-center justify-center font-bold bg-stripes px-4 rounded-lg duration-100 hover:-translate-y-1 text-white">
