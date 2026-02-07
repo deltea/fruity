@@ -96,7 +96,6 @@
     <section class="lg:p-10 lg:py-32 px-4 py-16 flex justify-center">
       <div class="max-w-6xl w-full">
         <Helper lines={[
-          "yo whats up",
           "welcome to fruity, a hack club ysws all about music!",
           "i'm fl-chan! your guide to all things fruity :D",
           "this website is still under construction, so check back later for more updates!"
