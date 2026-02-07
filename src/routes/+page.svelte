@@ -35,7 +35,7 @@
       <div class="w-4xl flex flex-col items-center">
         <div class="space-y-4 mb-24">
           <p class="text-2xl font-bold">presenting...</p>
-          <h1 class="flex gap-1 items-center bg-stripes-static px-9 py-7 before:rounded-[3rem] before:corner-squircle">
+          <h1 class="flex gap-1 items-center bg-stripes-static px-9 py-7 before:rounded-[3rem] before:corner-squircle hover:scale-105 duration-200">
             <img src="/images/logo-outline.png" alt="Fruity Logo" class="size-18 animate-wobble">
             <span class="text-text text-7xl font-black">fruity!</span>
           </h1>
@@ -58,7 +58,7 @@
         <h2 class="font-extrabold mb-10">( what is this? )</h2>
 
         <div class="flex gap-2 justify-center relative">
-          <div class="corner-squircle p-10 flex flex-col text-center rounded-[3rem] bg-primary-dim size-112 -rotate-6">
+          <div class="corner-squircle p-10 flex flex-col text-center rounded-[3rem] bg-primary-dim size-112 -rotate-6 hover:-rotate-10 duration-200">
             <h3 class="font-bold text-xl bg-primary corner-squircle px-6 py-4 rounded-3xl">you ship a project!</h3>
             <div class="grow flex flex-col gap-8 justify-center p-10">
               <p>It can be any digital project related to music, like a website, app, game, etc! Some ideas include:</p>
@@ -73,7 +73,7 @@
 
           <img src="/images/arrow.svg" alt="Loopy Arrow" class="absolute bottom-0 left-1/2 -translate-x-1/2 h-16 z-10">
 
-          <div class="corner-squircle p-10 flex flex-col text-center rounded-[3rem] bg-secondary-dim size-112 rotate-6">
+          <div class="corner-squircle p-10 flex flex-col text-center rounded-[3rem] bg-secondary-dim size-112 rotate-6 hover:rotate-10 duration-200">
             <h3 class="font-bold text-xl bg-secondary corner-squircle px-6 py-4 rounded-3xl">we ship you a daw!</h3>
             <div class="grow flex flex-col gap-8 justify-center p-10">
               <p>Get a <a href="https://en.wikipedia.org/wiki/Digital_audio_workstation" class="underline decoration-2 font-bold">DAW</a> (digital audio workstation) of your choice to start your music creation journey! For example:</p>
