@@ -33,7 +33,7 @@
     <!-- hero -->
     <section class="h-screen flex flex-col justify-center items-center">
       <div class="w-4xl flex flex-col items-center">
-        <div class="space-y-4 mb-24">
+        <div class="space-y-4 mb-32">
           <p class="text-2xl font-bold">presenting...</p>
           <h1 class="flex gap-1 items-center bg-stripes-static px-9 py-7 before:rounded-[3rem] before:corner-squircle hover:scale-105 duration-200">
             <img src="/images/logo-outline.png" alt="Fruity Logo" class="size-18 animate-wobble">
