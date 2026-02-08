@@ -11,7 +11,7 @@
   <main class="size-full">
     <div class="absolute left-0 -top-2 w-full h-12 bg-repeat rotate-180 bg-contain bg-[url('/images/waves-pattern-orange.svg')]"></div>
 
-    <header class="flex gap-4 w-full absolute top-0 left-0 lg:justify-end justify-center px-10 lg:pt-20 pt-14">
+    <header class="flex gap-4 w-full absolute top-0 left-0 lg:justify-end justify-center px-10 lg:pt-20 pt-14 z-10">
       <a
         href="https://fruity.fillout.com/rsvp"
         target="_blank"
