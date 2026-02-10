@@ -5,6 +5,7 @@
   import AccordionItem from "$components/AccordionItem.svelte";
   import Helper from "$components/Helper.svelte";
   import AnimatedDialogue from "$components/AnimatedDialogue.svelte";
+  import { PUBLIC_HACK_CLUB_CLIENT_ID } from "$env/static/public";
 </script>
 
 <div class="flex justify-center h-full">
@@ -13,8 +14,7 @@
 
     <header class="flex gap-4 w-full absolute top-0 left-0 lg:justify-end justify-center px-10 lg:pt-20 pt-14 z-10">
       <a
-        href="https://fruity.fillout.com/rsvp"
-        target="_blank"
+        href="https://auth.hackclub.com/oauth/authorize?client_id={PUBLIC_HACK_CLUB_CLIENT_ID}&redirect_uri=http://localhost:5173/oauth/callback&response_type=code&scope={["profile", "email", "name", "slack_id", "verification_status"].join(" ")}"
         class="h-10 gap-2 flex items-center font-bold before:rounded-3xl before:corner-squircle bg-stripes px-4 duration-100 hover:-translate-y-1 text-white"
       >
         <iconify-icon icon="mingcute:user-2-fill" class="text-lg"></iconify-icon>
