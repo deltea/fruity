@@ -5,6 +5,7 @@
   import AccordionItem from "$components/AccordionItem.svelte";
   import Helper from "$components/Helper.svelte";
   import AnimatedDialogue from "$components/AnimatedDialogue.svelte";
+    import SectionDivider from "$components/SectionDivider.svelte";
 </script>
 
 <div class="flex justify-center h-full">
@@ -54,7 +55,7 @@
     </section>
 
     <!-- description -->
-    <div class="w-full h-12 bg-repeat bg-contain bg-[url('/images/waves-pattern.svg')]"></div>
+    <SectionDivider position="top" color="secondary" />
     <section class="bg-surface px-10 py-10 pb-16 flex justify-center">
       <div class="max-w-6xl">
         <h2 class="font-extrabold mb-10">what is this?</h2>
@@ -90,7 +91,7 @@
         </div>
       </div>
     </section>
-    <div class="w-full h-12 bg-repeat rotate-180 bg-contain bg-[url('/images/waves-pattern.svg')]"></div>
+    <SectionDivider position="bottom" color="secondary" />
 
     <!-- shop preview -->
     <section class="lg:p-10 lg:py-32 px-4 py-16 flex justify-center">
@@ -104,7 +105,7 @@
     </section>
 
     <!-- faq -->
-    <div class="w-full h-12 bg-repeat bg-contain bg-[url('/images/waves-pattern-orange.svg')]"></div>
+    <SectionDivider position="top" color="primary" />
     <section class="bg-primary lg:px-10 px-4 py-4 flex justify-center">
       <div class="max-w-6xl text-left">
         <h2 class="font-extrabold mb-10">frequently asked questions</h2>
@@ -132,7 +133,7 @@
         </Accordion.Root>
       </div>
     </section>
-    <div class="w-full h-12 bg-repeat rotate-180 bg-contain bg-[url('/images/waves-pattern-orange.svg')]"></div>
+    <SectionDivider position="bottom" color="primary" />
 
     <Footer />
   </main>
