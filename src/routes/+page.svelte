@@ -21,7 +21,7 @@
         <span>sign up!</span>
       </a>
       <a
-        href="https://fruity.fillout.com/rsvp"
+        href="https://hackclub.enterprise.slack.com/archives/C0A6BBW662E"
         target="_blank"
         class="h-10 gap-2 flex items-center font-bold before:rounded-3xl before:corner-squircle bg-stripes bg-stripes-green px-4 duration-100 hover:-translate-y-1 text-white"
       >
