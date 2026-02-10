@@ -57,7 +57,7 @@
     <div class="w-full h-12 bg-repeat bg-contain bg-[url('/images/waves-pattern.svg')]"></div>
     <section class="bg-surface px-10 py-10 pb-16 flex justify-center">
       <div class="max-w-6xl">
-        <h2 class="font-extrabold mb-10">( what is this? )</h2>
+        <h2 class="font-extrabold mb-10">what is this?</h2>
 
         <div class="flex lg:flex-row flex-col gap-2 justify-center relative">
           <div class="corner-squircle p-10 flex flex-col text-center rounded-[3rem] bg-primary-dim lg:size-112 w-80 -rotate-6 hover:-rotate-10 duration-200">
@@ -106,8 +106,8 @@
     <!-- faq -->
     <div class="w-full h-12 bg-repeat bg-contain bg-[url('/images/waves-pattern-orange.svg')]"></div>
     <section class="bg-primary lg:px-10 px-4 py-4 flex justify-center">
-      <div class="max-w-6xl text-center lg:text-left">
-        <h2 class="font-extrabold mb-10">( frequently asked questions )</h2>
+      <div class="max-w-6xl text-left">
+        <h2 class="font-extrabold mb-10">frequently asked questions</h2>
         <!-- TODO: make this better (open all accordions) -->
         <Accordion.Root
           value={Array.from({ length: 5 }, (_, i) => i.toString())}
