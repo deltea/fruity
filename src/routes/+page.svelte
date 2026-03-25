@@ -46,7 +46,7 @@
         <div class="lg:static absolute bottom-4 px-4">
           <AnimatedDialogue color="var(--color-surface)">
             <p class="text-text text-center font-bold text-lg">
-              a new hack club ysws!<br>
+              a new hack club ysws,<br>
               make a music related project, and get a daw!
             </p>
           </AnimatedDialogue>
@@ -58,7 +58,7 @@
     <SectionDivider position="top" color="secondary" />
     <section class="bg-surface px-10 py-10 pb-16 flex justify-center">
       <div class="max-w-6xl">
-        <h2 class="font-extrabold mb-10">what is this?</h2>
+        <h2 class="font-extrabold mb-10">What is this?</h2>
 
         <div class="flex lg:flex-row flex-col gap-2 justify-center relative">
           <div class="corner-squircle p-10 flex flex-col text-center rounded-[3rem] bg-primary-dim lg:size-112 w-80 -rotate-6 hover:-rotate-10 duration-200">
@@ -108,7 +108,7 @@
     <SectionDivider position="top" color="primary" />
     <section class="bg-primary lg:px-10 px-4 py-4 flex justify-center">
       <div class="max-w-6xl text-left">
-        <h2 class="font-extrabold mb-10">frequently asked questions</h2>
+        <h2 class="font-extrabold mb-10">Frequently Asked Questions</h2>
         <!-- TODO: make this better (open all accordions) -->
         <Accordion.Root
           value={Array.from({ length: 5 }, (_, i) => i.toString())}
