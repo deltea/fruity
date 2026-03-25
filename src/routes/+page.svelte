@@ -5,7 +5,7 @@
   import AccordionItem from "$components/AccordionItem.svelte";
   import Helper from "$components/Helper.svelte";
   import AnimatedDialogue from "$components/AnimatedDialogue.svelte";
-    import SectionDivider from "$components/SectionDivider.svelte";
+  import SectionDivider from "$components/SectionDivider.svelte";
 </script>
 
 <div class="flex justify-center h-full">
